@@ -1,0 +1,968 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+/* ===============
+Global Stylings
+=============== */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: #D1D1D1;
+
+ 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #171717;
+}
+
+h2{
+    color: #edf0f1;
+}
+
+
+.nav__links{
+    list-style: none;
+    padding-right: 200px;
+
+
+}
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a{
+    transition: all 0.3 ease 0s;
+}
+.nav__links li a:hover{
+    transition: all 0.3 ease 0s;
+    color: #CA3E47;
+}
+
+
+
+.mLogo{
+    display: none;
+   
+}
+
+.logo {
+    width: 150px;
+    height: 75px;
+    cursor: pointer;
+
+}
+
+.basket {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+
+
+}
+
+.notice {
+
+    text-align: center;
+    background-color: #edf0f1;
+    font-weight: 650;
+}
+
+/* index styling */
+
+.hero {
+    text-align: center;
+    background: linear-gradient(to bottom, #000000 0%, #201e1e 100%);
+    color: #edf0f1;
+    padding-top: 100px;
+   padding-bottom: 100px;
+    
+
+}
+
+.hero h1 {
+    
+    font-size: 6rem;
+}
+
+.hero h3 {
+
+    font-size: 2.5rem;
+}
+
+li {
+    display: inline;
+}
+
+#hero li{
+    display: inline;
+}
+#hero {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #edf0f1;
+
+
+}
+
+#hero h1 {
+
+    font-size: 6rem;
+}
+
+#hero h3 {
+    
+    font-size: 2.5rem;
+}
+
+#browse {
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 35px;
+    position: relative;
+    top: 40px;
+}
+
+.hero ul a {
+    text-decoration: none;
+    color: #CA3E47;
+    position: relative;
+    top: 60px;
+
+}
+
+.hero img {
+    padding-top: 100px;
+    width: 825px;
+    height: 600px;
+}
+#hero ul a {
+    text-decoration: none;
+    color: #CA3E47;
+    position: relative;
+    top: 60px;
+
+}
+
+#hero img {
+    padding-top: 100px;
+    width: 825px;
+    height: 600px;
+}
+#hero img {
+    padding-top: 100px;
+    width: 825px;
+    height: 600px;
+}
+
+
+
+/*about us page */
+.contactt h1 {
+    color: #edf0f1;
+    font-size: 4rem;
+}
+
+
+
+
+.hr {
+    background-color: #CA3E47;
+    height: 2px;
+    border-style: none;
+}
+
+
+
+
+.contactt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.contactUs h1 {
+    color: #edf0f1;
+    font-size: 65px;
+}
+
+.contactUs{
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+
+
+
+.searchbar{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#search{
+
+    background: #D1D1D1;
+    border-radius: 5px;
+    width: 50%;
+    height: 50px;
+
+}
+
+.searchBtn{
+    position: relative;
+    bottom: 25px;
+    background: #CA3E47;
+    color: #D1D1D1;
+    font-family: montserrat,arial;
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#CT{
+    cursor: pointer;
+}
+
+
+.formC{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cForm{
+   display: grid;
+   grid-template-areas:
+   "name name"
+   "input1 input2"
+   "email email"
+   "eInput eInput "
+   "message message "
+   "Message Message"
+   "submit .";
+
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 0px 30px 0px 30px 0px 400px 100px;
+
+
+
+    width: 50%;
+    height: 800px;
+    gap: 22px 50px;
+
+    
+  
+    border-radius: 4px;
+
+
+}
+
+
+.cForm p{
+    font-size:20px;
+    color: #D1D1D1;
+
+}
+
+#name{
+    grid-area: name;
+
+}
+#fName{
+    grid-area: input1;
+
+}
+
+#lName{
+    grid-area: input2;
+
+}
+
+#imail{
+    grid-area: email;
+    font-family: montserrat, arial;
+
+}
+#Imail{
+    grid-area: eInput;
+    font-family: montserrat, arial;
+
+}
+
+#message{
+    grid-area: message;
+}
+
+
+#Message{
+    padding: 5px;
+    font-weight: 500;
+    font-size:20px;
+    grid-area: Message;
+    font-family: montserrat, arial;
+    resize: none;
+}
+
+
+
+#searchBtn{
+    grid-area: submit;
+   
+    background-color: #CA3E47;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+    color: #edf0f1;
+    width: 125px;
+    height: 40px;
+
+}
+
+
+.searchBtn{
+    background-color: #CA3E47;
+    text-align: center;
+    border-radius: 5px;
+
+    font-size: 20px;
+    color: #edf0f1;
+    margin-top: 50px;
+}
+
+
+
+
+/* shop styling */
+
+
+.shopall {
+    grid-area: shopall;
+
+}
+
+.container {
+
+    display: grid;
+    grid-template-areas:
+        "titd titles title"
+        "descriptiond description shopall";
+    grid-template-columns: 300px 1fr 1fr;
+    grid-template-rows: 100px 100px;
+
+
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    font-family: 'montserrat', sans-serif;
+
+}
+
+
+.title {
+    grid-area: titles;
+    margin-top: 50px;
+
+
+}
+
+.desc {
+    grid-area: description;
+}
+
+.button {
+    background: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px 2px;
+    width: 150px;
+    font-family: 'montserrat', sans-serif;
+
+
+}
+
+.btnBS {
+
+    grid-area: shopall;
+    margin-left: 25%;
+
+}
+
+
+.shopContainer {
+
+    margin: 100px 20%;
+    display: grid;
+
+    grid-template-areas:
+        "Pimg Pimg2 Pimg3"
+        "spacerz spacerz spacerz"
+        "pName pName2 pName3"
+        "pPrice pPrice2 pPrice3"
+        "atc atc2 atc3"
+        "spacer spacer spacer"
+        "Pimg4 Pimg5 Pimg6"
+        "spacers spacers spacers"
+        "pName4 pName5 pName6"
+        "pPrice4 pPrice5 pPrice6"
+        "atc4 atc5 atc6";
+
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 240px 35px 50px 10px 30px 100px 240px 35px 50px 10px 30px;
+    align-items: center;
+    align-content: center;
+    gap: 10px 100px;
+}
+/*  =================
+    Shhop
+    ================ */
+
+.shopContainer a {
+    text-decoration: none;
+    color: black;
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
+    margin-left: 25%;
+
+
+
+}
+
+.shopContainer p,
+.shopContainer h1 {
+
+    text-align: center;
+
+}
+
+
+.shopContainer button {
+    margin-left: 25%;
+}
+
+.item1 {
+    width: 300px;
+    height: 300px;
+    grid-area: Pimg;
+}
+
+.item2 {
+    width: 300px;
+    height: 300px;
+    grid-area: Pimg2;
+}
+
+.item3 {
+    width: 300px;
+    height: 300px;
+    grid-area: Pimg3;
+}
+
+.item4 {
+    width: 300px;
+    height: 300px;
+    grid-area: Pimg4;
+}
+
+.item5 {
+    width: 300px;
+    height: 300px;
+    grid-area: Pimg5;
+}
+
+.item6 {
+    width: 300px;
+    height: 300px;
+    grid-area: Pimg6;
+}
+
+
+.pName {
+    grid-area: pName;
+}
+
+.pName2 {
+    grid-area: pName2;
+}
+
+.pName3 {
+    grid-area: pName3;
+}
+
+.pName4 {
+    grid-area: pName4;
+}
+
+.pName5 {
+    grid-area: pName5;
+}
+
+.pName6 {
+    grid-area: pName6;
+}
+
+
+
+
+.pPrice {
+    grid-area: pPrice;
+}
+
+.pPrice2 {
+    grid-area: pPrice2;
+}
+
+.pPrice3 {
+    grid-area: pPrice3;
+}
+
+.pPrice4 {
+    grid-area: pPrice4;
+}
+
+.pPrice5 {
+    grid-area: pPrice5;
+}
+
+.pPrice6 {
+    grid-area: pPrice6
+}
+
+/*  =================
+    Add to cart buttons
+    ================ */
+
+.atc {
+    grid-area: atc;
+}
+
+.atc2 {
+    grid-area: atc2;
+}
+
+.atc3 {
+    grid-area: atc3;
+}
+
+.atc4 {
+    grid-area: atc4;
+}
+
+.atc5 {
+    grid-area: atc5;
+}
+
+.atc6 {
+    grid-area: atc6;
+}
+
+/*  =================
+    Footer Section
+    ================ */
+
+
+.footer {
+
+    display: grid;
+    grid-template-areas:
+        "1 logo sitemap subscribe 2"
+        "3 spacer spacer sapcer 4"
+        "5 us links search 6"
+        "7 icons iconss input 8"
+    ;
+    grid-template-columns: 200px 1fr 1fr 1fr 200px;
+    grid-template-rows: 150px 50px 150px 70px;
+    place-items: center;
+    background-color: #171717;
+
+
+}
+
+footer {
+    color: #edf0f1;
+}
+
+.logoF,
+img {
+    grid-area: logo;
+    width: 120px;
+    height: 120px;
+}
+
+.us {
+    grid-area: us;
+    text-align: justify;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.sitemap {
+    font-size: 23px;
+    grid-area: sitemap;
+}
+
+.sitelinks {
+    grid-area: links;
+}
+
+.sitelinks a {
+    font-size: 20px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    color: #edf0f1;
+    display: list-item;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    bottom: 28px;
+
+
+
+}
+
+.subscribe {
+    grid-area: subscribe;
+    font-size: 23px;
+    text-align: left;
+
+}
+
+.sapcer {
+    grid-area: sapcer;
+    width: 300px;
+    font-size: 15px;
+}
+
+.input {
+    grid-area: search;
+
+    text-align: center;
+    padding-bottom: 10px;
+
+
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+#email {
+    position: relative;
+
+    left: 5px;
+    top: 2px;
+    padding: 12px 20px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-style: none;
+
+}
+
+#getInTouch {
+
+    padding: 4px 25px;
+    margin-bottom: -4px;
+    background-color: #CA3E47;
+    color: #edf0f1;
+    font-size: 30px;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact a {
+    display: inline-block;
+    justify-content: left;
+    align-content: left;
+
+    width: 500px;
+}
+
+.contact p {
+    margin-top: 5px;
+}
+
+#CT {
+    padding: 5px 30px;
+    background-color: #CA3E47;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 20px;
+    color: #edf0f1;
+    margin-top: 50px;
+
+}
+
+.getInTouchT {
+    grid-area: input;
+    margin-bottom: 34px;
+
+}
+
+.socials {
+    grid-area: icons;
+}
+
+
+.socials img {
+    width: 24px;
+    height: 24px;
+}
+
+.noticeF a {
+    color: #CA3E47;
+    text-decoration: none;
+
+}
+
+.noticeF p {
+    text-align: center;
+    font-weight: 500;
+    color: #edf0f1;
+    background-color: #110f0f;
+
+}
+/*  ========================
+    Media Queiries
+    ======================== */
+
+
+/*  ========================
+    MEIDUM SCREEN /TABLE VIEW
+    ======================== */
+
+
+@media only screen and (max-width: 1400px) {
+    .shopContainer {
+
+        margin: 100px 20%;
+        display: grid;
+
+        grid-template-areas:
+            "Pimg Pimg2"
+            "spacer spacer"
+            "pName pName2"
+            "pPrice pPrice2"
+            "atc atc2"
+            "spacers spacers"
+            "Pimg3  Pimg4"
+            "pName3 pName4"
+            "pPrice3 pPrice4"
+            "atc3 atc4"
+            "spacerz spacerz"
+            "Pimg5 Pimg6"
+            "pName5 pName6"
+            "pPrice5 pPrice6"
+            "atc5 atc6";
+
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        align-items: center;
+        align-content: center;
+        gap: 10px 100px;
+    }
+    .btnBS {
+        margin: auto;
+    }
+}
+
+
+
+
+/*  ============
+    MOBILE VIEW
+    ============ */
+
+@media only screen and (max-width: 800px) {
+    
+    header {
+
+        height: 100px;
+        width: 100%;
+        padding: 0;
+        
+    
+
+    }
+    .mLogo{
+        display: inherit;  
+        position: relative;
+        right: 10px;
+    
+    }
+    .basket{
+        position: relative;
+        right: 30px;
+    }
+    .nav__links{
+        position: relative;
+       right: 30px;
+        padding: 0;
+    
+    }
+    .nav__links li{
+        display: list-item;
+    }
+
+    .logo {
+        display: none;
+    }
+
+
+    .container {
+        display: grid;
+        grid-template-areas:
+            "titles"
+            "description"
+            "shopall";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 200 auto;
+        text-align: center;
+        align-items: center;
+        padding-top: 76px;
+    }
+
+    .shopContainer {
+        margin: 10%;
+        display: grid;
+
+        grid-template-areas:
+            "Pimg"
+            "spacer "
+            "pName "
+            "pPrice"
+            "atc"
+            "Pimg2"
+            "spacer2 "
+            "pName2 "
+            "pPrice2"
+            "atc2"
+            "Pimg3"
+            "spacer3 "
+            "pName3 "
+            "pPrice3"
+            "atc3"
+            "Pimg4"
+            "spacer4 "
+            "pName4 "
+            "pPrice4"
+            "atc4"
+            "Pimg5"
+            "spacer5 "
+            "pName5 "
+            "pPrice5"
+            "atc5"
+            "Pimg6"
+            "spacer6 "
+            "pName6 "
+            "pPrice6"
+            "atc6"
+        ;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        align-items: center;
+        align-content: center;
+        gap: 10px 100px;
+    }
+
+    .cForm{
+        display: grid;
+        grid-template-areas:
+        "name"
+        "input1 "
+        "input2 "
+        "email "
+        "eInput "
+        "message"
+        "Message"
+        "submit";
+     
+        grid-template-columns: 1fr ;
+        grid-template-rows: 10px 20px 20px 20px 20px 20px auto;
+     
+         width: 100%;
+         height: 800px;
+         gap: 10px 50px;
+         border-radius: 4px;
+     
+     }
+
+    .footer {
+
+        display: grid;
+        grid-template-areas:
+            "logo "
+            "us"
+            "sapcer"
+            "subscribe"
+            "search"
+            "input"
+            "icons"
+            "sitemap"
+            "links"
+        ;
+
+        grid-template-rows: auto auto 150px 25px auto auto auto 150px 100px;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        text-align: center;
+        place-items: center;
+        background-color: #171717;
+
+    }
+    .subscribe {
+        text-align: center;
+    }
+    .sapcer {
+        width: 250px;
+    }
+    .hero img {
+        display: none;
+    }
+    #hero img {
+        display: none;
+    }
+}
